@@ -1,3 +1,8 @@
+activemq-example
+================
+
+ActiveMQ、Apollo、Spring Jms 整合示例。
+
 
 > 本实例演示环境为：ActiveMQ 5.10 、 Windows 7 X64 、jdk1.7、maven 3.0.5
 
