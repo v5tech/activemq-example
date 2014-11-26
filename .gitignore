@@ -3,6 +3,7 @@
 .project
 .settings
 target
+activemq-data
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

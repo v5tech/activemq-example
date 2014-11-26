@@ -22,8 +22,6 @@ public class Receiver {
 	private static final String PASSWORD = "admin";
 	private static final String BROKERURL = "tcp://localhost:61616";
 	
-	private static final String AMQPURL = "amqp://0.0.0.0:5672";
-	
 	/***************************apollo*************************************/
 	private static final String APOLLO_USERNAME = "admin";
 	private static final String APOLLO_PASSWORD = "password";

@@ -17,7 +17,9 @@
     
     <!-- Activemq connection factory -->
     <bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
-        <constructor-arg index="0" value="${jms.broker.url}"/>
+        <constructor-arg index="0" value="${jms.activemq.username}"/>
+        <constructor-arg index="1" value="${jms.activemq.password}"/>
+        <constructor-arg index="2" value="${jms.broker.url}"/>
     </bean>
  
     <!-- ConnectionFactory Definition -->
@@ -35,5 +37,5 @@
         <property name="connectionFactory" ref="connectionFactory" />
         <property name="defaultDestination" ref="defaultDestination" /> 
     </bean>
-     
+    
 </beans>
