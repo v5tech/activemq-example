@@ -68,9 +68,26 @@ apollo-1.7/bin/mybroker/bin/apollo-broker run
 具体见`apollo-1.7\bin\mybroker\etc\users.properties`
 
 
+# Screenshots
+
+* ActiveMQ演示
+
+![Screenshots/activemq.gif](Screenshots/activemq.gif)
+
+* Apollo演示
+
+![Screenshots/apollo.gif](Screenshots/apollo.gif)
+
+* ActiveMQ Maven Plugin演示
+
+![Screenshots/activemq-plugin.gif](Screenshots/activemq-plugin.gif)
+
+
 # 参考文档
 
 * [http://activemq.apache.org/version-5-getting-started.html](http://activemq.apache.org/version-5-getting-started.html)
+
+* [http://activemq.apache.org/how-do-i-embed-a-broker-inside-a-connection.html](http://activemq.apache.org/how-do-i-embed-a-broker-inside-a-connection.html)
 
 * [http://activemq.apache.org/amqp.html](http://activemq.apache.org/amqp.html)
 
